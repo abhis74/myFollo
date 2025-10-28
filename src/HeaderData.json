@@ -1,0 +1,29 @@
+{
+    "navLinks": [
+        {
+        "name": "Invest",
+        "path": "/invest"
+        },
+        {
+        "name": "Transact",
+        "path": "/transact"
+        },
+        {
+        "name": "PREFO",
+        "path": "/Prefo"
+        },
+        {
+        "name": "Why MyFollo",
+        "subLinks": [
+            {
+            "name": "For Investors",
+            "path": "/for-investors"
+            },
+            {
+            "name": "For Companies",
+            "path": "/for-companies"
+            }
+        ]
+        }
+    ]
+}

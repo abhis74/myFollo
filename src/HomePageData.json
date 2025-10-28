@@ -1,0 +1,115 @@
+{
+  "homePageData": {
+    "banner": {
+      "title": "Manage Your Real Estate Portfolio Online",
+      "subtitle": "Curated, Advised, Delivered",
+      "subText": "India’s exclusive platform for end-to-end real estate wealth management",
+      "image": "./src/assets/Home/Herobanner.png"
+    },
+    "hightlites": {
+      "Achievements": [
+        {
+          "number": "400+",
+          "description": "UHNI Families Trust Us"
+        },
+        {
+          "number": "2600+",
+          "description": "Long-Term Client Relationships"
+        },
+        {
+          "number": "100+",
+          "description": "Leading Corporates Served"
+        },
+        {
+          "number": "₹10,000+",
+          "description": "Leading Corporates Served"
+        },
+        {
+          "number": "23+",
+          "description": "Family Offices Partnered"
+        }
+      ],
+      "Accordions": [
+        {
+          "title": "Landlords",
+          "content": "We work closely with the prestigious, respected & most affluent landlords assisting them in liquidating or generating rental yields from their assets. A Client is not a number but an Entity for us"
+        },
+        {
+          "title": "New Age Entrepreneurs",
+          "content": "Our platform leverages advanced technology and industry expertise to provide personalized real estate solutions. Clients can easily manage their portfolios, access market insights, and receive tailored advice through our user-friendly interface."
+        },
+        {
+          "title": "WFamily Business Owners",
+          "content": "We offer a range of services including property curation, investment advisory, portfolio management, and transaction facilitation. Our goal is to help clients maximize their real estate investments with minimal effort."
+        },
+        {
+          "title": "Business Houses/ Corporates",
+          "content": "We offer a range of services including property curation, investment advisory, portfolio management, and transaction facilitation. Our goal is to help clients maximize their real estate investments with minimal effort."
+        }
+      ]
+    },
+    "features": [
+      {
+        "icon": "./src/assets/Home/growth.svg",
+        "title": "Invest",
+        "description": "Curated opportunities with proven ROI. Build wealth with confidence.",
+        "cta": "Talk to Advisory",
+        "ctaLink": "/contact"
+      },
+      {
+        "icon": "./src/assets/Home/bill.svg",
+        "title": "Transact",
+        "description": "Smart buy/sell decisions backed by data and deep market insights.",
+        "cta": "Confidently Transact",
+        "ctaLink": "/Transact"
+      },
+      {
+        "icon": "./src/assets/Home/briefcase.svg",
+        "title": "PREFO",
+        "description": "Curated opportunities with proven ROI. Build wealth with confidence.",
+        "cta": "Download PDF",
+        "ctaLink": "/PREFO"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Sulajja Firodia Motwani",
+        "image": "./src/assets/Home/SulajjaFirodia.png",
+        "feedback": "I was referred to Valion while planning an investment in Mumbai. The team was highly professional, understood family office complexities, and gave well-reasoned portfolio suggestions. They advised and executed the transaction smoothly. Wishing them success in their venture.",
+        "position": "Joint Managing Director - Kinetic Motor Company Ltd."
+      },
+      {
+        "name": "Pankaj Sachdeva",
+        "image": "./src/assets/Home/PankajSachdeva.png",
+        "feedback": "My experience with the MyFollo team for managing our real estate portfolio has been excellent. They are professional, proactive, and knowledgeable, handling our assets holistically to meet long-term goals. I would certainly recommend them and support their vision ahead.",
+        "position": "Managing Director - Unified Credit Solutions"
+      },
+      {
+        "name": "Atul Gupta",
+        "image": "./src/assets/Home/AtulGupta.png",
+        "feedback": "I’ve known Amit for over 3 years. He and his team managed the sale of our commercial building in Noida with complete involvement — from preparing the IM to structuring the transaction efficiently. Thanks to Amit and team for their dedicated efforts. Wishing them the best.",
+        "position": "Business head - Finance, Jakson Group"
+      }
+    ],
+    "brands": [
+      "./src/assets/Home/brands/brand1.svg",
+      "./src/assets/Home/brands/brand2.svg",
+      "./src/assets/Home/brands/brand3.svg",
+      "./src/assets/Home/brands/brand4.svg",
+      "./src/assets/Home/brands/brand5.svg",
+      "./src/assets/Home/brands/brand6.svg",
+      "./src/assets/Home/brands/brand7.svg",
+      "./src/assets/Home/brands/brand8.svg",
+      "./src/assets/Home/brands/brand9.svg",
+      "./src/assets/Home/brands/brand10.svg",
+      "./src/assets/Home/brands/brand11.svg",
+      "./src/assets/Home/brands/brand12.svg",
+      "./src/assets/Home/brands/brand13.svg",
+      "./src/assets/Home/brands/brand14.svg",
+      "./src/assets/Home/brands/brand15.svg",
+      "./src/assets/Home/brands/brand16.svg",
+      "./src/assets/Home/brands/brand17.svg",
+      "./src/assets/Home/brands/brand18.svg"
+    ]
+  }
+}

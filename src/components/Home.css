@@ -1,0 +1,157 @@
+.homeContainer {
+  max-width: 1600px;
+  width: 99%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: linear-gradient(180deg, rgba(0, 63, 51, 0) 25%, #131d33 50%),
+    url("/src/assets/Home/Herobanner.png");
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-top: 35px;
+  flex-direction: column;
+}
+.bannerSection {
+  margin-top: 216px;
+}
+.bannerheadingBox {
+  color: #fff;
+  text-align: center;
+  font-family: AvenirHeavy;
+  width: 700px;
+}
+.bannerheadingBox h1 {
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 63px;
+  text-align: center;
+}
+.bannerheadingBox .bannersubtitle {
+  font-weight: 800;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.bannerheadingBox .bannerSubtext {
+  font-family: AvenirBook;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 4px;
+}
+
+.bannerButton {
+  background-color: #505f7473;
+  color: #fff;
+  opacity: 1;
+  border-radius: 100px;
+  padding-top: 18px;
+  padding-right: 30px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  gap: 10px;
+  border: 1px solid #505f7473;
+  margin-top: 66px;
+  cursor: pointer;
+}
+.highlightSection {
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("@/assets/Rectangle.svg"); */
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+}
+.highligh {
+  color: #fff;
+  display: flex;
+  padding: 41px 100px;
+  margin-top: 116px;
+  justify-content: space-between;
+}
+.highlightBox h3 {
+  font-family: AvenirHeavy;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 62px;
+  letter-spacing: 0%;
+}
+.highlightBox p {
+  font-family: AvenirRegular;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+}
+.accordion {
+  width: 42%;
+}
+.accordionHeading {
+  font-family: AvenirHeavy;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+.accordionTitle {
+  border-radius: 6px;
+  background: #d9d9d90a;
+  padding: 14px;
+  font-family: AvenirRegular;
+}
+.accordionContent {
+  font-family: AvenirBook;
+  font-weight: 350;
+  font-size: 14px;
+  margin: 10px 7px;
+  margin-bottom: 0px;
+}
+.highlightBox {
+  margin-right: 35px;
+  width: 200px;
+}
+.mAppSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 108px;
+}
+.mAppbox {
+  width: 45%;
+  padding-right: 84px;
+}
+.mAppbox h2 {
+  font-weight: 200;
+  font-family: "AvenirBook";
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  margin-right: 28px;
+}
+.mAppbox h2 strong {
+  font-weight: 600;
+  color: #000;
+}
+.mAppbox p {
+  font-weight: 200;
+  font-family: "AvenirBook";
+  color: #4a4a4a;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.mAppbox p strong {
+  font-weight: 600;
+  color: #000;
+}
+.mAppImage {
+  width: 57%;
+}
+.mAppImage img {
+  width: 100%;
+  object-fit: contain;
+}

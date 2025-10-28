@@ -1,0 +1,50 @@
+/* Accordion.css */
+.accordion-item {
+    margin-bottom: 8px;
+}
+
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+      border-radius: 0px;
+    background: #0000000a;
+    color: #fff;
+    border-bottom: 1px solid  #FFFFFF26;
+}
+.accordion-button.active {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+    background: #D9D9D90A;
+    color: #fff;
+}
+
+.accordion-content {
+  overflow: hidden;
+  transition: all 0.3s ease;
+  padding: 0 1rem;
+  max-height: 0;
+  opacity: 0;
+}
+
+
+.accordion-content.open {
+  max-height: 200px;
+  opacity: 1;
+  padding: 1rem;
+}
+

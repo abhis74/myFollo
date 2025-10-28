@@ -1,0 +1,96 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 82px;
+  gap: 13px;
+  margin-bottom: 90px;
+}
+.form h2 {
+  font-family: "AvenirHeavy";
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  width: 500px;
+  margin-bottom: 10px;
+}
+.form p {
+  font-family: "AvenirBook";
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  width: 580px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.form label {
+  font-family: "AvenirBook";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+}
+.nameInput,
+.EmailInput,
+.numperInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 25px 9px;
+}
+.nameInput input,
+.EmailInput input {
+  width: 415px;
+  height: 50px;
+  top: 27px;
+  opacity: 1;
+  border-width: 1px;
+  background: #d9d9d914;
+  border-radius: 8px;
+  border: 1px solid #0000000f;
+  padding-left: 17px;
+}
+input::placeholder {
+  color: #00000033;
+}
+.numperInput input {
+  width: 415px;
+  height: 50px;
+  top: 27px;
+  opacity: 1;
+  border-width: 1px;
+  background: #d9d9d914;
+  border-radius: 8px;
+  border: 1px solid #0000000f;
+  padding-left: 90px;
+}
+.countryCode {
+  width: 73px;
+  height: 50px;
+  top: 0px;
+  opacity: 1;
+  border-width: 1px;
+  background: #ffffff14;
+  border-radius: 8px;
+  border: 1px solid #0000000f;
+  padding-left: 14px;
+  border-radius: 0px;
+  position: absolute;
+  border-right: none;
+  left: 0px;
+  border: none;
+}
+.CountryCode {
+  position: relative;
+}
+.submitformButton button {
+  width: 270px;
+  height: 48px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.submitformButton {
+  text-align: center;
+  margin-top: 45px;
+}
