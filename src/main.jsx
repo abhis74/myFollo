@@ -4,7 +4,9 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import "./index.css";
 import App from "./App.jsx";
 import Home from "./components/Home.jsx";
-import Invest from "./components/Invest";
+import Invest from "./Pages/Invest";
+import Transact from "./Pages/Transact";
+import Prefo from "./Pages/Prefo";
 
 let router = createBrowserRouter([
   {
@@ -19,6 +21,16 @@ let router = createBrowserRouter([
       {
         path: "/invest",
         element: <Invest />,
+    
+      },
+       {
+        path: "/transact",
+        element: <Transact />,
+    
+      },
+      {
+        path: "/Prefo",
+        element: <Prefo />,
     
       }
     ]

@@ -4,7 +4,7 @@ header {
   width: 100%;
   z-index: 1;
   font-family: Inter;
-  max-width: 1600px;
+  max-width: 1700px;
     margin: 0 auto;
 }
 .topbarContainer {
@@ -90,7 +90,7 @@ nav {
   border-radius: 100px;
   background: #ffffff14;
   border: 1px solid #c9700a26;
-  width: 540px;
+  width: 565px;
   height: 43px;
   justify-content: space-between;
 }

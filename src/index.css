@@ -4,8 +4,20 @@
     box-sizing: border-box;
 }
 body {
-    max-width: 1600px;
+    max-width: 1750px;
     margin: 0 auto;
+}
+
+.navlinks a.active{
+    border-radius: 100px;
+    padding-top: 12px;
+    padding-right: 36px;
+    padding-bottom: 11px;
+    padding-left: 29px;
+    background: #F3F3F34D;
+    gap: 10px;
+    margin-left: 2px;
+    transition: all 0.1s ease-in-out;
 }
 @font-face {
     font-family: AvenirHeavy;

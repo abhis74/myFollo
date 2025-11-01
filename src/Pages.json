@@ -1,0 +1,143 @@
+{
+    "invest":{
+    "banner": {
+      "title": "Exclusive Investments. Curated for India’s Wealth Leaders.",
+      "subtitle": "Mandated inventory, tier-1 developers, and unbiased advisory built for long-term wealth creation.",
+      "image": "./src/assets/Pages/investbg.png"
+    },
+    "heroSection":{
+        "heading":"Why MyFollo Stands Apart",
+        "subtextone":"Unlike most platforms, we don’t list everything. We curate. Every opportunity is pre-vetted, mandated, and backed by long-term thinking, not short-term sales.",
+        "subtextTwo":"Our approach blends discretion, trust, and premium expertise — ensuring that UHNI families, family offices, and corporates get access to opportunities that others don’t even see.",
+        "points":[
+            {
+            "heading":"Mandated Inventory Only",
+            "subText":"No clutter, no mass listings — just handpicked deals."
+            },
+             {
+            "heading":"Tier-1 Developer Network",
+            "subText":"Backed by India’s most trusted real estate names."
+            },
+             {
+            "heading":"Independent Advisory",
+            "subText":"No sales push, unbiased guidance aligned with your wealth goals."
+            },
+             {
+            "heading":"Full-Service Investment Desk",
+            "subText":"From curation to negotiation to post-sale support"
+            },
+             {
+            "heading":"Proven Track Record",
+            "subText":"From curation to negotiation to post-sale support"
+            }
+       ]
+    },
+    "feature":[
+        {
+            "headin":"Curate",
+            "subText":"Access to mandated, early-stage, tier 1 inventory — only the best opportunities make it through.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Advise",
+            "subText":"Risk-adjusted evaluations tailored to your portfolio, ensuring alignment with long-term wealth goals.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Execute",
+            "subText":"Seamless negotiation, closure, and post-sale support with complete transparency and discretion.",
+            "image":"./src/assets/defaultImg.svg"
+        }
+    ],
+    "trustedLeaders":[
+        {
+            "heading":"Exclusive Project",
+            "image":"./src/assets/Pages/investbg.png",
+            "location":"Mumbai",
+            "range":"13–16%, Mandated"
+        },
+         {
+            "heading":"Spotlight Opportunity",
+            "image":"./src/assets/Pages/investbg.png",
+            "location":"Gurugram | Mumbai",
+            "range":"12–15%, Mandated"
+        },
+         {
+            "heading":"Spotlight Opportunity",
+            "image":"./src/assets/Pages/investbg.png",
+            "location":"Gurugram | Mumbai",
+            "range":"12–15%, Mandated"
+        }
+    ]
+    },
+     "transact":{
+    "banner": {
+      "title": "Sell, Lease, or Restructure Your Real Estate— With Confidence & Clarity.",
+      "subtitle": "We deliver structured, discreet, and data-led execution that protects your wealth while maximizing outcomes.",
+      "image": "./src/assets/Pages/investbg.png"
+    },
+    "heroSection":{
+        "heading":"Why Transactions Fail Without the Right Partner",
+        "subtextone":"In India, most real estate deals are rushed, fragmented, or mispriced. For UHNI families, even small inefficiencies can result in massive opportunity loss. At MyFollo, we eliminate uncertainty by combining deep market intelligence with private, end-to-end execution — ensuring your assets are never undersold, overlooked, or mishandled.",
+        "points":[
+            {
+            "heading":"Who We Work with",
+            "subText":"Designed for India’s Most Discerning Property Owners"
+            },
+             {
+            "heading":"Tier-1 Developer Network",
+            "subText":"Backed by India’s most trusted real estate names."
+            },
+             {
+            "heading":"Independent Advisory",
+            "subText":"No sales push, unbiased guidance aligned with your wealth goals."
+            },
+             {
+            "heading":"Full-Service Investment Desk",
+            "subText":"From curation to negotiation to post-sale support"
+            },
+             {
+            "heading":"Proven Track Record",
+            "subText":"From curation to negotiation to post-sale support"
+            }
+       ]
+    },
+    "feature":[
+        {
+            "headin":"Evaluate",
+            "subText":"Market analysis, profiling, and pricing intelligence.",
+            "image":"./src/assets/Pages/investbg.png"
+        },
+        {
+            "headin":"Position",
+            "subText":"Strategic marketing, discreet buyer/tenant outreach, and asset positioning.",
+            "image":"./src/assets/Pages/investbg.png"
+        },
+        {
+            "headin":"Execute",
+            "subText":"Legal, negotiation, and closure managed seamlessly.",
+            "image":"./src/assets/Pages/investbg.png"
+        }
+    ],
+    "trustedLeaders":[
+        {
+            "heading":"Exclusive Project",
+            "image":"./src/assets/Pages/investbg.png",
+            "location":"Mumbai",
+            "range":"13–16%, Mandated"
+        },
+         {
+            "heading":"Spotlight Opportunity",
+            "image":"./src/assets/Pages/investbg.png",
+            "location":"Gurugram | Mumbai",
+            "range":"12–15%, Mandated"
+        },
+         {
+            "heading":"Spotlight Opportunity",
+            "image":"./src/assets/Pages/investbg.png",
+            "location":"Gurugram | Mumbai",
+            "range":"12–15%, Mandated"
+        }
+    ]
+    }
+}

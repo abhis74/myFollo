@@ -28,8 +28,8 @@ function Header() {
           {navLinks.map((item, index) => {
             return (
               <li className="navlinks" key={index}>
-                {item.name !== "Why MyFollo" ? (
-                  <NavLink  to={item.path}>{item.name} </NavLink >
+                {/* {item.name !== "Why MyFollo" ? (
+                  <NavLink  className={style.activelink} to={item.path}>{item.name} </NavLink >
                 ) : (
                   <div
                     name="Why MyFollo"
@@ -57,7 +57,8 @@ function Header() {
                       </div>
                        }
                   </div>
-                )}
+                )} */}
+                <NavLink  className={style.activelink} to={item.path}>{item.name} </NavLink >
               </li>
             );
           })}
