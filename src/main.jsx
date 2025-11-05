@@ -7,6 +7,9 @@ import Home from "./components/Home.jsx";
 import Invest from "./Pages/Invest";
 import Transact from "./Pages/Transact";
 import Prefo from "./Pages/Prefo";
+import MyFollo from "./Pages/MyFollo";
+import LetsTalk from "./Pages/LetsTalk";
+import JoinMApp from "./Pages/JoinMApp";
 
 let router = createBrowserRouter([
   {
@@ -31,6 +34,21 @@ let router = createBrowserRouter([
       {
         path: "/Prefo",
         element: <Prefo />,
+    
+      },
+      {
+        path: "/MyFollo",
+        element: <MyFollo />,
+    
+      },
+      {
+        path: "/LetsTalk",
+        element: <LetsTalk />,
+    
+      },
+      {
+        path: "/mApp",
+        element: <JoinMApp/>,
     
       }
     ]

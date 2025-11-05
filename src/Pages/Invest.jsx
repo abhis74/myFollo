@@ -2,6 +2,7 @@ import "./PagesCss.css"
 import {invest} from "../pages.json"
 import defalutImg from "../assets/defaultImg.svg"
 import Feature from "@/Utils/Feature"
+import Form from "@/Utils/Form"
 
 
 function Invest(){
@@ -49,10 +50,45 @@ function Invest(){
           </div>
       </div>
 
-      <Feature feature={invest.feature} heading="Let us show‍you how we make it happen." subtextone="ur Approach" subtextTwo="We combine access, advice, and execution to help you invest with confidence" btnText="Talk to Advisory"/>
+      <Feature feature={invest.feature} heading="Let us show‍ you how we make it happen." subtextone="Our Approach" subtextTwo="We combine access, advice, and execution to help you invest with confidence" btnText="Talk to Advisory"/>
+     <div className="testimonialSection">
+        {invest.trustedLeaders && invest.trustedLeaders.length > 0 ? (
+          invest.trustedLeaders.map((testimonial, index) => (
+            <div key={index} className="pagetestimonial">
+              <p className="pagetestimonialText">{testimonial.heading}</p>
+              <div className="dummyImg">
 
+              <img src={testimonial.image} alt="" />
+              </div>
+              <div className="Author">
+                <div className="AuthorDetails">
+                  <p className="testimonialAuthor"> <span>Location : </span>{testimonial.location}</p>
+                  <p className="testimonialPosition"><span>IRR Range : </span>{testimonial.range}</p>
+                  <p className="titletestimonialPosition">{testimonial.title}</p>
+                </div>
+              </div>
+            </div>
+          ))
+        ) : (
+          <p>No testimonials available.</p>
+        )}
+      </div>
+      
 
-
+        <Form Heading="Let’s Talk Real Estate Intelligently." subtext="Whether you’re investing, diversifying, or preserving wealth — our advisory team will craft a bespoke strategy for you."/>
+           <div className="bandSection">
+        <div className="band1List">
+          {invest.brands &&
+            invest.brands.map((brand, index) => {
+              return (
+                <div key={index} className="bandItem">
+                  <img src={brand} alt="brand" />
+                </div>
+              );
+            })}
+        </div>
+       
+      </div>
         </>
     )
 

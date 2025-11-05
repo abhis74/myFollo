@@ -1,0 +1,87 @@
+.hightLightFeatures{
+    padding: 5% 9%;
+    opacity: 1;
+    border-radius: 20px;
+    background: #FAFAFA;
+}
+.pointersSetion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+.pointersBox{
+    width: 30%;
+    height: 173px;
+    opacity: 1;
+    top: 3190px;
+    left: 145px;
+    border-radius: 2px;
+    height: 226px;
+}
+.headingSetion{
+    font-family: 'AvenirHeavy';
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 37px;
+}
+.headingSetion h2{
+    font-family: 'AvenirHeavy';
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 37px;
+}
+.headingSetion p{
+    font-family: 'AvenirBook';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    width: 675px;
+    margin-top: 17px;
+    color: #4A4A4A;
+
+}
+.pointersBox h2{
+    font-family: 'AvenirHeavy';
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 100%;
+    margin-top: 29px;
+    margin-bottom: 10px;
+}
+.pointersBox p{
+   font-family: 'AvenirBook';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 17px;
+    color: #4A4A4A;
+}
+.Prefo.hightLightFeatures,.myFollo.hightLightFeatures{
+    background: none;
+}
+.myFollo.hightLightFeatures .headingSetion h2 span{
+    font-family: 'AvenirBook';
+    font-weight: 350;
+    font-style: oblique;
+    font-size: 33px;
+    line-height: 37px;
+}
+.Prefo.hightLightFeatures .headingSetion{
+    text-align: center;
+} 
+.Prefo.hightLightFeatures .headingSetion p{
+    width: 100%;
+}
+.Prefo.hightLightFeatures .pointersBox{
+    width: 20%;
+    height: 173px;
+    opacity: 1;
+    top: 3190px;
+    left: 145px;
+    border-radius: 2px;
+    height: 226px;
+    margin-top: 50px;
+}

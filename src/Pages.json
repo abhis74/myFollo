@@ -1,5 +1,5 @@
 {
-    "invest":{
+"invest":{
     "banner": {
       "title": "Exclusive Investments. Curated for India’s Wealth Leaders.",
       "subtitle": "Mandated inventory, tier-1 developers, and unbiased advisory built for long-term wealth creation.",
@@ -52,25 +52,37 @@
     "trustedLeaders":[
         {
             "heading":"Exclusive Project",
-            "image":"./src/assets/Pages/investbg.png",
+            "image":"./src/assets/defaultImg.svg",
             "location":"Mumbai",
-            "range":"13–16%, Mandated"
+            "range":"13–16%, Mandated",
+            "title":"Private invitation only."
         },
          {
             "heading":"Spotlight Opportunity",
-            "image":"./src/assets/Pages/investbg.png",
+            "image":"./src/assets/defaultImg.svg",
             "location":"Gurugram | Mumbai",
-            "range":"12–15%, Mandated"
+            "range":"12–15%, Mandated",
+            "title":"Early access to curated luxury property."
         },
          {
             "heading":"Spotlight Opportunity",
-            "image":"./src/assets/Pages/investbg.png",
+            "image":"./src/assets/defaultImg.svg",
             "location":"Gurugram | Mumbai",
-            "range":"12–15%, Mandated"
+            "range":"12–15%, Mandated",
+              "title":"Early access to curated luxury property."
         }
+    ],
+    "brands": [
+      "./src/assets/Home/brands/brand1.svg",
+      "./src/assets/Home/brands/brand2.svg",
+      "./src/assets/Home/brands/brand3.svg",
+      "./src/assets/Home/brands/brand4.svg",
+      "./src/assets/Home/brands/brand5.svg",
+      "./src/assets/Home/brands/brand6.svg"
     ]
     },
-     "transact":{
+
+ "transact":{
     "banner": {
       "title": "Sell, Lease, or Restructure Your Real Estate— With Confidence & Clarity.",
       "subtitle": "We deliver structured, discreet, and data-led execution that protects your wealth while maximizing outcomes.",
@@ -83,22 +95,24 @@
             {
             "heading":"Who We Work with",
             "subText":"Designed for India’s Most Discerning Property Owners"
+            }  
+       ],
+       "subpoints":[
+          {
+            "heading":"Homeowners",
+            "icon":"./src/assets/Pages/House.svg"
             },
              {
-            "heading":"Tier-1 Developer Network",
-            "subText":"Backed by India’s most trusted real estate names."
+            "heading":"UHNI Families & Family Offices",
+            "icon":"./src/assets/Pages/Department.svg"
             },
              {
-            "heading":"Independent Advisory",
-            "subText":"No sales push, unbiased guidance aligned with your wealth goals."
+            "heading":"Investors",
+            "icon":"./src/assets/Pages/Increase.svg"
             },
              {
-            "heading":"Full-Service Investment Desk",
-            "subText":"From curation to negotiation to post-sale support"
-            },
-             {
-            "heading":"Proven Track Record",
-            "subText":"From curation to negotiation to post-sale support"
+            "heading":"NRIs",
+            "icon":"./src/assets/Pages/America.svg"
             }
        ]
     },
@@ -106,38 +120,454 @@
         {
             "headin":"Evaluate",
             "subText":"Market analysis, profiling, and pricing intelligence.",
-            "image":"./src/assets/Pages/investbg.png"
+            "image":"./src/assets/defaultImg.svg"
         },
         {
             "headin":"Position",
             "subText":"Strategic marketing, discreet buyer/tenant outreach, and asset positioning.",
-            "image":"./src/assets/Pages/investbg.png"
+            "image":"./src/assets/defaultImg.svg"
         },
         {
             "headin":"Execute",
             "subText":"Legal, negotiation, and closure managed seamlessly.",
-            "image":"./src/assets/Pages/investbg.png"
+            "image":"./src/assets/defaultImg.svg"
         }
     ],
+    "hightLightFeatures":{
+        "heading":"Transform into “Our Transaction Suite”",
+        "text":"End-to-end transaction management with dedicated deal teams. From initial sourcing to post-close optimization, we handle complexity so you can focus on strategy.",
+        "pointers":[
+            {
+              "logo":"./src/assets/Pages/Rectangle.svg",
+              "title":"Exclusive Sale Advisory" ,
+               "text":"Discreet, off-market positioning for premium assets. Our proprietary network connects you with qualified buyers before properties hit."
+            },
+             {
+              "logo":"./src/assets/Pages/Ellipse.svg",
+              "title":"Lease & Asset Management" ,
+               "text":"Maximize NOI through data-driven lease optimization. Our institutional-grade approach ensures every lease contributes."
+            },
+             {
+              "logo":"./src/assets/Pages/Polygon.svg",
+              "title":"Buyer & Tenant Profiling" ,
+               "text":"Proprietary profiling system identifies and qualifies prospects before first contact. Reduce time-to-lease by 40% with pre-vetted."
+            },
+             {
+              "logo":"./src/assets/Pages/Polygon.svg",
+              "title":"Property Benchmarking" ,
+               "text":"Institutional-grade analytics comparing your assets against market comps and portfolio peers. Make informed by real-time data."
+            },
+             {
+              "logo":"./src/assets/Pages/Ellipse.svg",
+              "title":"Structured Negotiations & Closure" ,
+               "text":"Orchestrated closings with military precision. From documentation to fund transfers, we eliminate surprises and deliver certainty."
+            },
+             {
+              "logo":"./src/assets/Pages/Rectangle.svg",
+              "title":"Legal & Financial Due Diligence" ,
+               "text":"White-glove legal and financial analysis protecting your interests. Our forensic approach uncovers risks before they become liabilities."
+            }
+        ]
+    },
     "trustedLeaders":[
         {
-            "heading":"Exclusive Project",
-            "image":"./src/assets/Pages/investbg.png",
-            "location":"Mumbai",
-            "range":"13–16%, Mandated"
+            "heading":"Exclusive Buyer/Tenant Network",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Access to verified, high-quality prospects"
         },
-         {
-            "heading":"Spotlight Opportunity",
-            "image":"./src/assets/Pages/investbg.png",
-            "location":"Gurugram | Mumbai",
-            "range":"12–15%, Mandated"
+           {
+            "heading":"Zero-Noise, Discreet Listings",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"No public clutter, maintaining privacy and exclusivity"
         },
-         {
-            "heading":"Spotlight Opportunity",
-            "image":"./src/assets/Pages/investbg.png",
-            "location":"Gurugram | Mumbai",
-            "range":"12–15%, Mandated"
+           {
+            "heading":"Legal-Vetted, Team-Led Transactions",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Comprehensive legal support at every step"
+        },
+           {
+            "heading":"Strategic Price Realization",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Not fire sales - optimal value extraction"
         }
+
+    ],
+      "brands": [
+      "./src/assets/Home/brands/brand1.svg",
+      "./src/assets/Home/brands/brand2.svg",
+      "./src/assets/Home/brands/brand3.svg",
+      "./src/assets/Home/brands/brand4.svg",
+      "./src/assets/Home/brands/brand5.svg",
+      "./src/assets/Home/brands/brand6.svg"
+    ]
+    },
+
+
+    
+"prefo":{
+    "banner": {
+      "title": "The Family Office Advantage, Redefined",
+      "subtitle": "PREFO is India’s only pre-leased, family-office-led real estate framework designed to preserve and grow wealth with complete discretion.",
+      "image": "./src/assets/Pages/investbg.png"
+    },
+    "heroSection":{
+        "heading":"What is PREFO?",
+        "subtextone":"Private Real Estate Family Office",
+        "subtextTwo":"More than real estate. A wealth framework.",
+        "paragraph":"Unlike equities or bonds, real estate portfolios are often unmanaged. Families and investors lack the strategic oversight and professional guidance needed to maximize value and minimize risk.”",
+        "author":"Founder & CEO",
+        "position":"PREFO Advisory",
+        "herosectionImg":"./src/assets/Pages/herosectionImg.png",
+        "authorImg":""
+        
+    },
+    "feature":[
+        {
+            "headin":"Discover",
+            "subText":"We assess your family’s goals, legacy ambitions, and risk appetite.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Structure",
+            "subText":"We curate pre-leased assets into a governance-ready portfolio.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Preserve",
+            "subText":"We manage, monitor, and optimize for long-term stability and growth.",
+            "image":"./src/assets/defaultImg.svg"
+        }
+    ],
+    "hightLightFeatures":{
+        "heading":"Who We Work With",
+        "text":"Serving Ultra High Net Worth Individuals across diverse profiles",
+        "pointers":[
+            {
+              "logo":"./src/assets/Pages/Rectangle.svg",
+              "title":"Business Owners" ,
+               "text":"Entrepreneurs who have built successful businesses and accumulated real estate holdings that need professional management."
+            },
+             {
+              "logo":"./src/assets/Pages/Ellipse.svg",
+              "title":"Family Offices" ,
+               "text":"Multi-generational wealth holders seeking specialized real estate portfolio advisory and execution services."
+            },
+             {
+              "logo":"./src/assets/Pages/Polygon.svg",
+              "title":"Returning NRIs" ,
+               "text":"Global Indians managing property portfolios in India from abroad, requiring trusted, discrete oversight."
+            },
+             {
+              "logo":"./src/assets/Pages/Polygon.svg",
+              "title":"Multi-Gen Wealth" ,
+               "text":"Families transitioning wealth across generations who need strategic structuring and compliance guidance."
+            } 
+             
+        ]
+    },
+    "trustedLeaders":[
+        {
+            "heading":"DISCREET",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Your privacy is our priority"
+        },
+           {
+            "heading":"LONG-TERM FOCUSED",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Multi-generational perspective"
+        },
+           {
+            "heading":"FAMILY-ALIGNED",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Your legacy is our mission"
+        },
+           {
+            "heading":"NOT SALES-LED",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Advice-first approach"
+        }
+
+    ],
+      "brands": [
+      "./src/assets/Home/brands/brand1.svg",
+      "./src/assets/Home/brands/brand2.svg",
+      "./src/assets/Home/brands/brand3.svg",
+      "./src/assets/Home/brands/brand4.svg",
+      "./src/assets/Home/brands/brand5.svg",
+      "./src/assets/Home/brands/brand6.svg"
+    ]
+    },
+
+"myFollo":{
+    "banner": {
+      "title": "India's Only Real Estate Wealth Platform",
+      "subtitle": "At MyFollo, we help NRIs, UHNIs, HNIs, and family offices invest, manage, and grow their real estate portfolios with long-term intent and institutional discipline.",
+      "image": "./src/assets/Pages/investbg.png"
+    },
+    "heroSection":{
+        "heading":"Our Origin Story",
+        "subtextone":"MyFollo was born from a simple observation: while India's wealthy had access to sophisticated investment platforms for stocks, bonds, and mutual funds, real estate—often their largest asset class—remained opaque, fragmented, and difficult to manage professionally.",
+        "subtextTwo":"MyFollo works on Aggregate, Control & Transact Model for real estate. The Landlord, Property owners & Developers are engaged online to aggregate inventory & then most efficient distribution channels are optimized to transact."
+    },
+    "hightlites": {
+      "Achievements": [
+        {
+          "number": "350+",
+          "description": "Companies Advised"
+        },
+        {
+          "number": "2,600+",
+          "description": "Families Served"
+        },
+        {
+          "number": "₹5,000Cr+",
+          "description": "AUM Managed"
+        }
+        
+      ]
+     
+    },
+    "feature":[
+        {
+            "headin":"Discover",
+            "subText":"We assess your family’s goals, legacy ambitions, and risk appetite.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Structure",
+            "subText":"We curate pre-leased assets into a governance-ready portfolio.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Preserve",
+            "subText":"We manage, monitor, and optimize for long-term stability and growth.",
+            "image":"./src/assets/defaultImg.svg"
+        }
+    ],
+    "hightLightFeatures":{
+        "heading":"Build to Serve Legacy,",
+        "text":"Foundational pillars guide every decision, recommendation, and client interaction at MyFollo",
+        "subtext":"Our Difference",
+        "pointers":[
+            {
+              "logo":"./src/assets/Pages/Rectangle.svg",
+              "title":"Long-Term Thinking" ,
+               "text":"We optimize for generational wealth, not quarterly gains. Every recommendation is evaluated through a 10-20 year lens."
+            },
+             {
+              "logo":"./src/assets/Pages/Ellipse.svg",
+              "title":"Discretion" ,
+               "text":"Privacy is paramount. Your portfolio details, investment strategies, and personal information remain completely confidential."
+            },
+             {
+              "logo":"./src/assets/Pages/Polygon.svg",
+              "title":"Expertise" ,
+               "text":"Our team combines decades of real estate, finance, and technology expertise with deep local market knowledge across India."
+            },
+             {
+              "logo":"./src/assets/Pages/Polygon.svg",
+              "title":"Execution Excellence" ,
+               "text":"From deal sourcing to post-investment management, we handle every detail with institutional precision and family office care."
+            } ,
+             {
+              "logo":"./src/assets/Pages/Rectangle.svg",
+              "title":"Trust" ,
+               "text":"Fee-only advisory model ensures our interests are perfectly aligned with yours. No commissions, no conflicts."
+            } ,
+             {
+              "logo":"./src/assets/Pages/Ellipse.svg",
+              "title":"Result" ,
+               "text":"A real estate portfolio that compounds wealth across generations with institutional rigor and family office personalization."
+            } 
+             
+        ]
+    },
+    "trustedLeaders":[
+        {
+            "name":"Amit Sharma",
+            "position":"Founder & CEO",
+            "image":"./src/assets/defaultImg.svg",
+            "review":"“Real estate is the largest asset class for Indian families, yet it remains the least professionally managed. We are changing that.”",
+            "icon":"./src/assets/Pages/linkedin.svg"
+
+        },
+              {
+            "name":"Priya Desai",
+            "position":"Chief Investment Officer",
+            "image":"./src/assets/defaultImg.svg",
+            "review":"“Every property recommendation is backed by institutional-grade analysis and a 20-year value perspective.”",
+             "icon":"./src/assets/Pages/linkedin.svg"
+
+        },
+           {
+            "name":"Rajesh Kumar",
+            "position":"Head of Client Relations",
+            "image":"./src/assets/defaultImg.svg",
+            "review":"“Our success is measured by the generational wealth we help our clients create and preserve.”",
+             "icon":"./src/assets/Pages/linkedin.svg"
+
+        }
+          
+    ],
+      "brands": [
+      "./src/assets/Home/brands/brand1.svg",
+      "./src/assets/Home/brands/brand2.svg",
+      "./src/assets/Home/brands/brand3.svg",
+      "./src/assets/Home/brands/brand4.svg",
+      "./src/assets/Home/brands/brand5.svg",
+      "./src/assets/Home/brands/brand6.svg"
+    ]
+    },
+
+
+    "LetsTalkData":{
+        "banner": {
+      "title": "Let's Talk Real Estate. Intelligently.",
+      "subtitle": "Whether you're exploring an investment, planning to sell, or looking for long-term real estate guidance — we're here to help.",
+      "image": "./src/assets/Pages/investbg.png"
+    },
+     "UHNIClients":[
+        {
+            "heading":"SEC Registered",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Fully compliant investment advisor"
+        },
+           {
+            "heading":"Bank-Level Security",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"256-bit encryption & GDPR compliant"
+        },
+           {
+            "heading":"Dedicated Manager",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Personal relationship team"
+        },
+           {
+            "heading":"18% Avg. Returns",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Track record since 2015"
+        },
+        {
+            "heading":"$2.4B+ Managed",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Trusted by 150+ UHNI families"
+        },
+        {
+            "heading":"Full Transparency",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Quarterly reporting & audits"
+        }
+
+    ]
+    },
+
+    "JoinMAppData":{
+    "banner": {
+      "title": "Let’s Create Value. Together.",
+      "subtitle": "The MyFollo Alliance Partnership Program (mAPP) is a trusted referral network for professionals connected to India’s wealth creators.",
+      "image": "./src/assets/Pages/investbg.png",
+      "subtext":"mAPP - MyFollo Alliance Partnership Program"
+    },
+    "heroSection":{
+        "heading":"Why mAPP",
+        "headingpart":"(MyFollo Alliance Partnership Program)",
+        "subtextone":"In India, most real estate deals are rushed, fragmented, or mispriced. For UHNI families, even small inefficiencies can result in massive opportunity loss. At MyFollo, we eliminate uncertainty by combining deep market intelligence with private, end-to-end execution — ensuring your assets are never undersold, overlooked, or mishandled.",
+        "highlightpoints":[
+            "Discreet, non-intrusive engagement",
+            "No pressure to “sell” — just open the door",
+            "Transparent tracking of your referrals",
+            "Premium advisory-led experience for your clients"
+        ],
+        "points":[
+            {
+            "heading":"Who It’s For",
+            "subText":"Designed for India’s Most Discerning Property Owners"
+            }  
+       ],
+       "subpoints":[
+          {
+            "heading":"Chartered Accountants",
+            "icon":"./src/assets/Pages/House.svg"
+            },
+             {
+            "heading":"Wealth Managers",
+            "icon":"./src/assets/Pages/Department.svg"
+            },
+             {
+            "heading":"Private Bankers",
+            "icon":"./src/assets/Pages/Increase.svg"
+            },
+             {
+            "heading":"Luxury Advisors",
+            "icon":"./src/assets/Pages/America.svg"
+            }
+   
+       ]
+    },
+    "feature":[
+        {
+            "headin":"Refer",
+            "subText":"Introduce a contact or client via a quick form or direct connect.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Engage",
+            "subText":"We take it forward with a discreet, aligned conversation.",
+            "image":"./src/assets/defaultImg.svg"
+        },
+        {
+            "headin":"Reward",
+            "subText":"Earn incentives or relationship benefits on successful conversions.",
+            "image":"./src/assets/defaultImg.svg"
+        }
+    ],
+     "hightlightes": [
+        {
+          "number": "₹100Cr+",
+          "description": "Transacted or advised"
+        },
+        {
+          "number": "92+",
+          "description": "Repeat Clients"
+        },
+        {
+          "number": "150",
+          "description": "Referrals closed via mAPP"
+        }
+        
+      ],
+
+    "trustedLeaders":[
+        {
+            "heading":"Exclusive Buyer/Tenant Network",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Access to verified, high-quality prospects"
+        },
+           {
+            "heading":"Zero-Noise, Discreet Listings",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"No public clutter, maintaining privacy and exclusivity"
+        },
+           {
+            "heading":"Legal-Vetted, Team-Led Transactions",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Comprehensive legal support at every step"
+        },
+           {
+            "heading":"Strategic Price Realization",
+            "image":"./src/assets/defaultImg.svg",
+            "title":"Not fire sales - optimal value extraction"
+        }
+
+    ],
+      "brands": [
+      "./src/assets/Home/brands/brand1.svg",
+      "./src/assets/Home/brands/brand2.svg",
+      "./src/assets/Home/brands/brand3.svg",
+      "./src/assets/Home/brands/brand4.svg",
+      "./src/assets/Home/brands/brand5.svg",
+      "./src/assets/Home/brands/brand6.svg"
     ]
     }
+
 }

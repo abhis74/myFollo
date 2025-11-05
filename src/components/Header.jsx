@@ -1,7 +1,6 @@
 import { Link, Links, NavLink } from "react-router";
 import { navLinks } from "../HeaderData.json";
 import LoginSvg from "../assets/log-in.svg";
-import VectorArrow from "../assets/VectorArrow.svg";
 import Logo from "../assets/logo.svg";
 import style from "./Header.module.css";
 import { useState } from "react";
@@ -63,7 +62,7 @@ function Header() {
             );
           })}
         </ul>
-        <Link to="/register">
+        <Link to="/LetsTalk">
           <button className={style.requestToTalk}>Let's Talk</button>
         </Link>
       </nav>

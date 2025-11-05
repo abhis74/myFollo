@@ -13,7 +13,7 @@
   font-size: 30px;
   line-height: 37px;
   text-align: center;
-  width: 500px;
+  width: 620px;
   margin-bottom: 10px;
 }
 .form p {
@@ -33,14 +33,15 @@
 }
 .nameInput,
 .EmailInput,
-.numperInput {
+.numperInput,
+.ProfessionSelect,.lookingForSelect {
   display: flex;
   flex-direction: column;
   gap: 5px;
   margin: 25px 9px;
 }
 .nameInput input,
-.EmailInput input {
+.EmailInput input,.ProfessionSelect select {
   width: 415px;
   height: 50px;
   top: 27px;
@@ -49,6 +50,23 @@
   background: #d9d9d914;
   border-radius: 8px;
   border: 1px solid #0000000f;
+  padding-left: 17px;
+}
+.ProfessionSelectOption{
+  width: 415px;
+  height: 50px;
+  background: #d9d9d914;
+  border-radius: 8px;
+  border: 1px solid #0000000f;
+  padding-right: 17px;
+}
+.lookingForSelectOption{
+ width: 415px;
+  height: 50px;
+  background: #d9d9d914;
+  border-radius: 8px;
+  border: 1px solid #0000000f;
+  padding-right: 17px;
   padding-left: 17px;
 }
 input::placeholder {
@@ -93,4 +111,11 @@ input::placeholder {
 .submitformButton {
   text-align: center;
   margin-top: 45px;
+}
+.form.JoinMAppData .mainform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 910px;
+    gap: 6px;
 }

@@ -69,7 +69,7 @@ function Home() {
           <p>
             Over <strong>78%</strong> of our UHNI clients came through professional referrals via mAPP.
           </p>
-          <Link to="/register">
+          <Link to="/mApp">
             <button className="featureCta">Join mAPP</button>
           </Link>
         </div>

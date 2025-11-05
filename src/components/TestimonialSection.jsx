@@ -1,8 +1,6 @@
 import "./TestimonialSection.css";
 import comas from "../assets/Home/invertedcomms.svg";
 function TestimonialSection({ testimonials, brands }) {
-  console.log("bands in TestimonialSection:", brands);
-  console.log("testimonials in TestimonialSection:", testimonials);
   return (
     <>
       <div className="testimonialSection">
@@ -37,8 +35,7 @@ function TestimonialSection({ testimonials, brands }) {
               );
             })}
         </div>
-        <div className="band2List"></div>
-        <div className="band3List"></div>
+       
       </div>
     </>
   );
