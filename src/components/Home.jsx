@@ -1,4 +1,4 @@
-import { homePageData } from "@/HomePageData.json";
+import { homePageData } from "../HomePageData.json";
 import "./Home.css";
 import { Link } from "react-router";
 import Accordion from "../Utils/Accordion.jsx";
