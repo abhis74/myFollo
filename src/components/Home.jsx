@@ -7,6 +7,34 @@ import FeatureSection from "./FeatureSection.jsx";
 import TestimonialSection from "./TestimonialSection.jsx";
 import mappImg  from "../assets/Home/Maskgroup.png";
 import Form from "../Utils/Form.jsx";
+import "./FeatureSection.css";
+import arrow from "../assets/Home/upper-right-arrow.svg";
+import deshboardImg  from "../assets/Home/dashboard.png"
+
+
+const features= [
+      {
+        "icon": "./src/assets/Home/growth.svg",
+        "title": "Invest",
+        "description": "Curated real estate opportunities across India’s most promising markets, backed by diligence, data, and deep advisory insight. Build and diversify your real estate portfolio with confidence.",
+        "cta": "Explore Investments",
+        "ctaLink": "/invest"
+      },
+      {
+        "icon": "./src/assets/Home/bill.svg",
+        "title": "Transact",
+        "description": "Unlock value through intelligent real estate transactions from acquisitions and divestments to portfolio restructuring. Every deal is backed by analysis, strategy, and precision execution.",
+        "cta": "Explore Transactions",
+        "ctaLink": "/transact"
+      },
+      {
+        "icon": "./src/assets/Home/briefcase.svg",
+        "title": "PREFO",
+        "description": "A bespoke real estate wealth advisory for family offices and affluent investors. We manage, structure, and preserve multi-asset portfolios with institutional-grade governance and long-term vision.",
+        "cta": "Explore PREFO",
+        "ctaLink": "/Prefo"
+      }
+    ]
 function Home() {
   const [openIndex, setOpenIndex] = useState(0);
   const handleToggle = (index) => {
@@ -55,7 +83,37 @@ function Home() {
           </div>
         </div>
       </div>
-      <FeatureSection features={homePageData.features} />
+      {/* <FeatureSection features={homePageData.features} /> */}
+      <div className="FeatureSection">
+      <div className="featureCard">
+        {features.map((feature, index) => (
+          <div className="featureBox" key={index}>
+            <img src={feature.icon} alt={feature.title} />
+            <h3>{feature.title}</h3>
+            <p>{feature.description}</p>
+            <Link to={feature.ctaLink}>
+              {" "}
+              <button className="featureCta">{feature.cta}</button>
+              <img src={arrow} alt="arrow" />
+            </Link>
+          </div>
+        ))}
+      </div>
+
+      <div className="dashboardSection">
+        <img src={deshboardImg} alt="dashboard" />
+        <div className="deshboardContant">
+            <h2>Your Real Estate Portfolio.<br />Visualized with Clarity.</h2>
+            <p>Gain a consolidated view of your real estate wealth from portfolio value and asset performance to appreciation, yield, and liquidity. Designed for clarity, built for confidence.</p>
+            <p>Track your assets, monitor market movement, and evaluate portfolio growth in real time through India’s first integrated real estate wealth dashboard.</p>
+            <Link to="/login">
+            <button className="bannerButton">
+             Login to Dashboard
+            </button>
+          </Link>
+        </div>
+      </div>
+    </div>
 
       <div className="mAppSection">
         <div className="mAppbox">
