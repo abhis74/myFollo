@@ -23,7 +23,7 @@ function Home() {
             <p className="bannerSubtext">{homePageData.banner.subText}</p>
             <Link to="/register">
               <button className="bannerButton">
-                Schedule a Private Consultation
+                Request Private Consultation
               </button>
             </Link>
           </div>
@@ -59,18 +59,20 @@ function Home() {
 
       <div className="mAppSection">
         <div className="mAppbox">
-          <h2>Join <strong>mAPP</strong> — Where Partnerships Create Value</h2>
+          <h2> <strong>mAPP</strong> - Where Vision Meets Partnership</h2>
           <p>
-           mAPP is a curated referral network for trusted professionals serving India’s wealth creators.
+         mAPP is MyFollo’s invitation-only alliance program that fosters meaningful partnerships with accomplished professionals who share our belief in long-term value creation.
+
           </p>
           <p>
-          Great partnerships begin with trust. <strong>mAPP</strong> unites select professionals — CAs, private bankers, wealth advisors, doctors, and legal experts — who connect with HNIs, NRIs, and Family Offices. By joining, you don’t just refer clients — you create lasting value while unlocking new opportunities for yourself.
+            Through this program, individuals can engage with myfollo either as Internal Partners, working alongside our leadership to achieve shared objectives, or as External Partners, aligning with us to extend myfollo’s philosophy and expertise to a broader network.
+         
           </p>
           <p>
-            Over <strong>78%</strong> of our UHNI clients came through professional referrals via mAPP.
+           Together, we build synergies that strengthen relationships, unlock new opportunities, and advance the collective goal of redefining real estate wealth management in India.
           </p>
           <Link to="/mApp">
-            <button className="featureCta">Join mAPP</button>
+            <button className="featureCta">Explore  mAPP</button>
           </Link>
         </div>
 
@@ -80,7 +82,8 @@ function Home() {
       </div>
 
       <TestimonialSection testimonials={homePageData.testimonials} brands={homePageData.brands}/>
-      <Form Heading="Trusted by 400+ UHNI Families. Now, Let’s Focus on Yours" subtext="A one-on-one consultation with MyFollo experts ensures every decision is backed by insight, discretion, and long-term vision."/>
+      <Form Heading="Advising ₹15,000 Cr+ in Real Estate Wealth.
+Trusted by People Who Build, Own, and Grow with Vision" subtext="Experience the clarity, discretion, and intelligence that define MyFollo’s approach to real estate, from ownership and investment to management and advisory."/>
     </>
   );
 }

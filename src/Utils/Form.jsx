@@ -93,7 +93,7 @@ function Form({ Heading, subtext,className }) {
         </div>
         <div className="submitformButton">
           <button type="submit" className="featureCta">
-            {!className?"Schedule Consultation":"Submit"}
+            {!className?"Book a Consultation":"Submit"}
           </button>
         </div>
       </form>

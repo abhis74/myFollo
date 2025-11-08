@@ -24,11 +24,12 @@ function FeatureSection({ features }) {
       <div className="dashboardSection">
         <img src={deshboardImg} alt="dashboard" />
         <div className="deshboardContant">
-            <h2>One Dashboard,<br />Complete Control</h2>
-            <p>Track, analyze, and grow your real estate portfolio with absolute clarity and discretion.</p>
+            <h2>Your Real Estate Portfolio.<br />Visualized with Clarity.</h2>
+            <p>Gain a consolidated view of your real estate wealth from portfolio value and asset performance to appreciation, yield, and liquidity. Designed for clarity, built for confidence.</p>
+            <p>Track your assets, monitor market movement, and evaluate portfolio growth in real time through India’s first integrated real estate wealth dashboard.</p>
             <Link to="/login">
             <button className="bannerButton">
-              Login
+             Login to Dashboard
             </button>
           </Link>
         </div>

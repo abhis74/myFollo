@@ -147,14 +147,17 @@
   width: 100%;
   margin-top: 55px;
 }
+.highlightSection.myFollo .highlightBox{
+  width: 25%;
+}
 .highlightSection.myFollo h3 {
   color: #4a4a22;
-  font-size: 47px;
+  font-size: 40px;
 }
 .highlightSection.myFollo p {
   color: #4a4a22;
   font-family: "AvenirBook";
-  font-size: 18px;
+  font-size: 16px;
 }
 .headingsection h2 {
   font-family: "AvenirHeavy";
@@ -408,6 +411,9 @@ padding: 106px 20px;
   color: #97a7ca;
 }
 
+.transactContainer.myFollo{
+      background-image: linear-gradient(180deg, rgba(19, 29, 51, 0.5) -5.48%, #131d33 82.44%), url(/src/assets/Pages/Prefo.png);
+}
 .myFollotestimonialSection {
   background: linear-gradient(180deg, #131d33 28%, #435170 65.48%, #ffffff 99%);
 
@@ -424,15 +430,16 @@ padding: 106px 20px;
 .myFollotestimonialSection_box {
   display: flex;
   padding: 65px 0;
-  gap: 60px;
+  gap: 39px;
   justify-content: center;
   padding-bottom: 78px;
 }
 .myFollotestimonialSection_box .pagetestimonial {
-  width: 396px;
+     width: 31%;
 }
 .myFollotestimonialSection_box .pagetestimonial .dummyImg {
-  width: 342px;
+     width: 100%;
+
 }
 .myFollotestimonialSection_heading {
   font-family: "AvenirHeavy";

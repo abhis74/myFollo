@@ -1,8 +1,8 @@
 .featureSection{
     display: flex;
-    justify-content: space-around;
-    margin: 63px 0;
-    padding: 43px 134px;
+ margin: 63px 0;
+    padding: 29px 0px;
+    justify-content: space-evenly;
 }
 .featureHeading h2{
 font-family: 'AvenirHeavy';
@@ -23,6 +23,7 @@ font-family: 'AvenirHeavy';
     margin: 50px;
     align-items: flex-end;
     margin-top: 0;
+        margin-right: 0;
 }
 .features .img{
     width: 286px;

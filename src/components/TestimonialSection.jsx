@@ -10,7 +10,7 @@ function TestimonialSection({ testimonials, brands }) {
               <div className="invertedcoma">
                 <img src={comas} alt="comas" />
               </div>
-              <p className="testimonialText">"{testimonial.feedback}"</p>
+              <p className="testimonialText">{testimonial.feedback}</p>
               <div className="Author">
                 <img src={testimonial.image} alt={testimonial.name} />
                 <div className="AuthorDetails">

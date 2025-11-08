@@ -63,7 +63,7 @@
   background-size: cover;
   /* background-image: url("@/assets/Rectangle.svg"); */
   display: flex;
-  width: 50%;
+  width: 68%;
   flex-wrap: wrap;
 }
 .highligh {
@@ -113,8 +113,8 @@
   margin-bottom: 0px;
 }
 .highlightBox {
-  margin-right: 35px;
-  width: 200px;
+    margin-right: 15px;
+    width: 44%;
 }
 .mAppSection {
   display: flex;

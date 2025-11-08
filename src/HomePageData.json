@@ -9,42 +9,42 @@
     "hightlites": {
       "Achievements": [
         {
-          "number": "400+",
-          "description": "UHNI Families Trust Us"
+          "number": "₹15,000 Cr+",
+          "description": "Assets Under Advisory (AUA)"
         },
         {
-          "number": "2600+",
-          "description": "Long-Term Client Relationships"
+          "number": "₹6,500 Cr+",
+          "description": "Assets Under Management (AUM)"
         },
         {
-          "number": "100+",
-          "description": "Leading Corporates Served"
+          "number": "2,500+",
+          "description": "Clients Across India and Global Markets"
         },
         {
-          "number": "₹10,000+",
-          "description": "Leading Corporates Served"
+          "number": "Global Presence:",
+          "description": "India | Singapore | UAE | USA"
         },
         {
-          "number": "23+",
-          "description": "Family Offices Partnered"
+          "number": "145+",
+          "description": "Family Offices & Ultra–High-Net-Worth Clients Advised"
         }
       ],
       "Accordions": [
         {
-          "title": "Landlords",
-          "content": "We work closely with the prestigious, respected & most affluent landlords assisting them in liquidating or generating rental yields from their assets. A Client is not a number but an Entity for us"
+          "title": "Individuals & Families",
+          "content": "We work with affluent individuals, entrepreneurs, and legacy-driven families who view real estate as a key pillar of their long-term wealth strategy. Our advisory combines deep market insight, access to exclusive opportunities, and portfolio management expertise helping them grow and preserve their real estate wealth with confidence and clarity."
         },
         {
-          "title": "New Age Entrepreneurs",
-          "content": "Our platform leverages advanced technology and industry expertise to provide personalized real estate solutions. Clients can easily manage their portfolios, access market insights, and receive tailored advice through our user-friendly interface."
+          "title": "Family Offices",
+          "content": "We serve both established and emerging family offices offering institutional-grade structuring, performance management, and long-term strategy for their real estate portfolios. From acquisition and consolidation to governance and intergenerational transfer, we ensure every asset aligns with the family’s wealth philosophy."
         },
         {
-          "title": "WFamily Business Owners",
-          "content": "We offer a range of services including property curation, investment advisory, portfolio management, and transaction facilitation. Our goal is to help clients maximize their real estate investments with minimal effort."
+          "title": "Non-Resident Indians (NRIs)",
+          "content": "We assist global investors in acquiring, managing, and monetizing real estate in India, from portfolio setup and legal coordination to ongoing yield optimization and repatriation. With our tech-enabled platform and on-ground expertise, we make investing in Indian real estate seamless and strategic."
         },
         {
-          "title": "Business Houses/ Corporates",
-          "content": "We offer a range of services including property curation, investment advisory, portfolio management, and transaction facilitation. Our goal is to help clients maximize their real estate investments with minimal effort."
+          "title": " Institutional Investors & Partners",
+          "content": "We collaborate with developers, fund managers, and institutional investors on high-value opportunities including land aggregation, leasing, and capital market–linked projects. Our insight-led approach ensures precision in deal structuring, execution, and long-term partnership outcomes."
         }
       ]
     },
@@ -52,42 +52,42 @@
       {
         "icon": "./src/assets/Home/growth.svg",
         "title": "Invest",
-        "description": "Curated opportunities with proven ROI. Build wealth with confidence.",
-        "cta": "Talk to Advisory",
-        "ctaLink": "/contact"
+        "description": "Curated real estate opportunities across India’s most promising markets, backed by diligence, data, and deep advisory insight. Build and diversify your real estate portfolio with confidence.",
+        "cta": "Explore Investments",
+        "ctaLink": "/invest"
       },
       {
         "icon": "./src/assets/Home/bill.svg",
         "title": "Transact",
-        "description": "Smart buy/sell decisions backed by data and deep market insights.",
-        "cta": "Confidently Transact",
-        "ctaLink": "/Transact"
+        "description": "Unlock value through intelligent real estate transactions from acquisitions and divestments to portfolio restructuring. Every deal is backed by analysis, strategy, and precision execution.",
+        "cta": "Explore Transactions",
+        "ctaLink": "/transact"
       },
       {
         "icon": "./src/assets/Home/briefcase.svg",
         "title": "PREFO",
-        "description": "Curated opportunities with proven ROI. Build wealth with confidence.",
-        "cta": "Download PDF",
-        "ctaLink": "/PREFO"
+        "description": "A bespoke real estate wealth advisory for family offices and affluent investors. We manage, structure, and preserve multi-asset portfolios with institutional-grade governance and long-term vision.",
+        "cta": "Explore PREFO",
+        "ctaLink": "/Prefo"
       }
     ],
     "testimonials": [
       {
-        "name": "Sulajja Firodia Motwani",
+        "name": "Raghav Mehta",
         "image": "./src/assets/Home/SulajjaFirodia.png",
-        "feedback": "I was referred to Valion while planning an investment in Mumbai. The team was highly professional, understood family office complexities, and gave well-reasoned portfolio suggestions. They advised and executed the transaction smoothly. Wishing them success in their venture.",
+        "feedback": "“myfollo has brought an institutional level of discipline to our family’s real estate portfolio. Their perspective goes far beyond transactions, it’s about strategy, timing, and legacy. Every interaction reflects an understanding of what long-term wealth truly means.”",
         "position": "Joint Managing Director - Kinetic Motor Company Ltd."
       },
       {
-        "name": "Pankaj Sachdeva",
+        "name": "Neha Kapoor",
         "image": "./src/assets/Home/PankajSachdeva.png",
-        "feedback": "My experience with the MyFollo team for managing our real estate portfolio has been excellent. They are professional, proactive, and knowledgeable, handling our assets holistically to meet long-term goals. I would certainly recommend them and support their vision ahead.",
+        "feedback": "“What differentiates myfollo is how seamlessly they combine insight and execution. From curating investments to providing complete visibility through their dashboard, the experience feels as refined as private banking, but for real estate.”",
         "position": "Managing Director - Unified Credit Solutions"
       },
       {
-        "name": "Atul Gupta",
+        "name": "Arjun Sethi",
         "image": "./src/assets/Home/AtulGupta.png",
-        "feedback": "I’ve known Amit for over 3 years. He and his team managed the sale of our commercial building in Noida with complete involvement — from preparing the IM to structuring the transaction efficiently. Thanks to Amit and team for their dedicated efforts. Wishing them the best.",
+        "feedback": "“Real estate decisions often lack data, structure, or clarity. With myfollo, we found a team that leads with intelligence and delivers with precision. Their advice is never reactive, it’s guided by a genuine understanding of wealth and responsibility.”",
         "position": "Business head - Finance, Jakson Group"
       }
     ],

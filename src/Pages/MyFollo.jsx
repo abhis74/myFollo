@@ -8,7 +8,7 @@ import Rectangle from "../assets/Pages/Rectangle.svg";
 function MyFollo() {
   return (
     <>
-      <div className="transactContainer">
+      <div className="transactContainer myFollo">
         <div className="pagebannerSection">
           <div className="pagebannerheadingBox">
             <h1>{myFollo.banner.title}</h1>
