@@ -1,4 +1,4 @@
-import "./feature.css"
+import "./Feature.css"
 function Feature({feature,heading,subtextone,subtextTwo,btnText}){
     return(
          <div className="featureSection">
