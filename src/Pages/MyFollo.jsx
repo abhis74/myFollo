@@ -1,5 +1,5 @@
 import "./PagesCss.css";
-import { myFollo } from ".../../src/Pages.json";
+import { myFollo } from "../../src/Pages.json";
 import HightLightFeatures from "@/Utils/hightLightFeatures";
 import Ellipse from "../assets/Pages/Ellipse.svg";
 import Polygon from "../assets/Pages/Polygon.svg";
