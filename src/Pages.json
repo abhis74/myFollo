@@ -508,17 +508,17 @@
         {
             "headin":"Refer",
             "subText":"Introduce a contact or client via a quick form or direct connect.",
-            "image":"./src/assets/defaultImg.svg"
+            "image":"/assets/defaultImg.svg"
         },
         {
             "headin":"Engage",
             "subText":"We take it forward with a discreet, aligned conversation.",
-            "image":"./src/assets/defaultImg.svg"
+            "image":"/assets/defaultImg.svg"
         },
         {
             "headin":"Reward",
             "subText":"Earn incentives or relationship benefits on successful conversions.",
-            "image":"./src/assets/defaultImg.svg"
+            "image":"/assets/defaultImg.svg"
         }
     ],
      "hightlightes": [
@@ -540,33 +540,33 @@
     "trustedLeaders":[
         {
             "heading":"Exclusive Buyer/Tenant Network",
-            "image":"./src/assets/defaultImg.svg",
+            "image":"/assets/defaultImg.svg",
             "title":"Access to verified, high-quality prospects"
         },
            {
             "heading":"Zero-Noise, Discreet Listings",
-            "image":"./src/assets/defaultImg.svg",
+            "image":"/assets/defaultImg.svg",
             "title":"No public clutter, maintaining privacy and exclusivity"
         },
            {
             "heading":"Legal-Vetted, Team-Led Transactions",
-            "image":"./src/assets/defaultImg.svg",
+            "image":"/assets/defaultImg.svg",
             "title":"Comprehensive legal support at every step"
         },
            {
             "heading":"Strategic Price Realization",
-            "image":"./src/assets/defaultImg.svg",
+            "image":"/assets/defaultImg.svg",
             "title":"Not fire sales - optimal value extraction"
         }
 
     ],
       "brands": [
-      "./src/assets/Home/brands/brand1.svg",
-      "./src/assets/Home/brands/brand2.svg",
-      "./src/assets/Home/brands/brand3.svg",
-      "./src/assets/Home/brands/brand4.svg",
-      "./src/assets/Home/brands/brand5.svg",
-      "./src/assets/Home/brands/brand6.svg"
+      "/src/assets/Home/brands/brand1.svg",
+      "/src/assets/Home/brands/brand2.svg",
+      "/src/assets/Home/brands/brand3.svg",
+      "/src/assets/Home/brands/brand4.svg",
+      "/src/assets/Home/brands/brand5.svg",
+      "/src/assets/Home/brands/brand6.svg"
     ]
     }
 
