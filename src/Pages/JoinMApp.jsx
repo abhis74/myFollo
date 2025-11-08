@@ -1,5 +1,5 @@
 import "./PagesCss.css"
-import {transact,JoinMAppData} from "../pages.json"
+import {transact,JoinMAppData} from "../../src/Pages.json"
 import defalutImg from "../assets/defaultImg.svg"
 import bulding from "../assets/Pages/ph_building-office-bold.svg"
 import check from "../assets/Pages/check.svg"

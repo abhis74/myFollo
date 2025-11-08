@@ -1,5 +1,5 @@
 import "./PagesCss.css";
-import { prefo } from "../pages.json";
+import { prefo } from "../../src/Pages.json";
 import { motion } from "framer-motion";
 import HightLightFeatures from "@/Utils/hightLightFeatures";
 import Feature from "@/Utils/Feature";
