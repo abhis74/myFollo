@@ -2,6 +2,7 @@ import "./PagesCss.css";
 import { prefo } from "../../src/Pages.json";
 import { motion } from "framer-motion";
 import HightLightFeatures from "../Utils/HightLightFeatures.jsx";
+import herosectionimage from "../assets/Pages/herosectionimage.png" 
 import Feature from "../Utils/Feature.jsx";
 import Form from "../Utils/Form.jsx";
 
@@ -41,7 +42,7 @@ function Prefo() {
           >
             <motion.img
               style={{ width: "100%" }}
-              src={prefo.heroSection.herosectionImg}
+              src={herosectionimage}
               alt={prefo.heroSection.author}
                initial={{ y: 10 }} // Initial position
                 animate={{ y: [10, -30] }} // Animate up to -50px, then back to 0px
