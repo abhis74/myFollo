@@ -14,21 +14,21 @@ import deshboardImg  from "../assets/Home/dashboard.png"
 
 const features= [
       {
-        "icon": "./src/assets/Home/growth.svg",
+        "icon": "./assets/Home/growth.svg",
         "title": "Invest",
         "description": "Curated real estate opportunities across India’s most promising markets, backed by diligence, data, and deep advisory insight. Build and diversify your real estate portfolio with confidence.",
         "cta": "Explore Investments",
         "ctaLink": "/invest"
       },
       {
-        "icon": "./src/assets/Home/bill.svg",
+        "icon": "./assets/Home/bill.svg",
         "title": "Transact",
         "description": "Unlock value through intelligent real estate transactions from acquisitions and divestments to portfolio restructuring. Every deal is backed by analysis, strategy, and precision execution.",
         "cta": "Explore Transactions",
         "ctaLink": "/transact"
       },
       {
-        "icon": "./src/assets/Home/briefcase.svg",
+        "icon": "./assets/Home/briefcase.svg",
         "title": "PREFO",
         "description": "A bespoke real estate wealth advisory for family offices and affluent investors. We manage, structure, and preserve multi-asset portfolios with institutional-grade governance and long-term vision.",
         "cta": "Explore PREFO",
