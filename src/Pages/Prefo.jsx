@@ -1,9 +1,9 @@
 import "./PagesCss.css";
 import { prefo } from "../../src/Pages.json";
 import { motion } from "framer-motion";
-import HightLightFeatures from "@/Utils/hightLightFeatures";
-import Feature from "../Utils/Feature";
-import Form from "../Utils/Form";
+import HightLightFeatures from "../Utils/hightLightFeatures.jsx";
+import Feature from "../Utils/Feature.jsx";
+import Form from "../Utils/Form.jsx";
 
 function Prefo() {
   return (

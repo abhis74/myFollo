@@ -1,7 +1,7 @@
 
 import "./PagesCss.css";
 import { LetsTalkData } from "../../src/Pages.json";
-import Form from "../Utils/Form";
+import Form from "../Utils/Form.jsx";
 import phone from "../assets/Pages/mingcute_phone-fill.svg"
 import email from "../assets/Pages/tabler_mail-filled.svg"
 

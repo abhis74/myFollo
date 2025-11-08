@@ -1,12 +1,12 @@
 import { homePageData } from "@/HomePageData.json";
 import "./Home.css";
 import { Link } from "react-router";
-import Accordion from "../Utils/Accordion";
+import Accordion from "../Utils/Accordion.jsx";
 import { useState } from "react";
-import FeatureSection from "./FeatureSection";
-import TestimonialSection from "./TestimonialSection";
+import FeatureSection from "./FeatureSection.jsx";
+import TestimonialSection from "./TestimonialSection.jsx";
 import mappImg  from "../assets/Home/Maskgroup.png";
-import Form from "../Utils/Form";
+import Form from "../Utils/Form.jsx";
 function Home() {
   const [openIndex, setOpenIndex] = useState(0);
   const handleToggle = (index) => {
