@@ -1,5 +1,5 @@
 import "./PagesCss.css"
-import {invest} from "../pages.json"
+import {invest} from "../../src/Pages.json"
 import defalutImg from "../assets/defaultImg.svg"
 import Feature from "@/Utils/Feature"
 import Form from "@/Utils/Form"
