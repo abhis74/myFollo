@@ -1,7 +1,7 @@
 import "./Form.css";
 import countrycode from "../countryCode.json";
 
-function Form({ Heading, subtext,className }) {
+function Form({ Heading, subtext,className ,submitBtnText }) {
   return (
     <div className={`form ${className}`}>
       <h2>{Heading}</h2>
@@ -93,7 +93,7 @@ function Form({ Heading, subtext,className }) {
         </div>
         <div className="submitformButton">
           <button type="submit" className="featureCta">
-            {!className?"Book a Consultation":"Submit"}
+            {submitBtnText}
           </button>
         </div>
       </form>

@@ -2,7 +2,7 @@ import "./PagesCss.css";
 import { prefo } from "../../src/Pages.json";
 import { motion } from "framer-motion";
 import HightLightFeatures from "../Utils/HightLightFeatures.jsx";
-import herosectionimage from "../assets/Pages/herosectionimage.png" 
+import herosectionimage from "../../public/assets/Pages/herosectionimage.png" 
 import Feature from "../Utils/Feature.jsx";
 import Form from "../Utils/Form.jsx";
 
@@ -26,13 +26,15 @@ function Prefo() {
         <div className="prefoheadingsection">
           <div className="prefoheadingsectionBox">
             <h2>{prefo.heroSection.heading}</h2>
-            <p>{prefo.heroSection.subtextone}</p>
-            <p>{prefo.heroSection.subtextTwo}</p>
-            <p>{prefo.heroSection.paragraph}</p>
+            <p className="subtextone">{prefo.heroSection.subtextone}</p>
+            <p className="subtextTwo">{prefo.heroSection.subtextTwo}</p>
+            <p className="NarrativeparagraphOne">{prefo.heroSection.NarrativeparagraphOne}</p>
+            <p className="Narrativeparagraphtwo">{prefo.heroSection.Narrativeparagraphtwo}</p>
             <div className="authorsection">
               <div className="authordetails">
-                <p>{prefo.heroSection.author}</p>
-                <p>{prefo.heroSection.position}</p>
+               <p className="FounderQuote">{prefo.heroSection.FounderQuote}</p>
+                <p className="position">{prefo.heroSection.position}</p>
+                <p className="author">{prefo.heroSection.author}</p>
               </div>
             </div>
           </div>
@@ -60,18 +62,18 @@ function Prefo() {
       />
       <Feature
         feature={prefo.feature}
-        heading="Let us show‍ you how we make it happen."
-        subtextone="Our Process"
-        subtextTwo="A Proven Framework to Build & Preserve Legacy"
-        btnText="Download PDF"
+        heading="A Structured Approach to Managing Generational Real Estate Portfolios"
+        
+        subtextTwo="Our process blends discipline, governance, and long-term perspective ensuring your real estate holdings are structured, monitored, and executed with the same rigor applied to any institutional asset class."
+        btnText="Schedule a Consultation"
       />
 
       <div className="transacttestimonialSection">
         <h2 className="transacttestimonialSection_heading">
-          The PREFO Advantage
+         The PREFO Advantage
         </h2>
         <p className="transacttestimonialSection_para">
-          What makes us different from traditional advisory
+          Quiet Strength. Disciplined Stewardship. Uncompromising Alignment.
         </p>
         <div className="transacttestimonialSection_box">
           {prefo.trustedLeaders && prefo.trustedLeaders.length > 0 ? (
@@ -97,10 +99,9 @@ function Prefo() {
       </div>
 
       <Form
-        Heading="Ready to discuss your real estate portfolio?
-"
-        subtext="Schedule a confidential conversation with our senior advisors.
-"
+        Heading="Your Portfolio. Our Perspective."
+        subtext="Speak with our advisory team to evaluate your portfolio, uncover risks, and plan for long-term growth and continuity."
+        submitBtnText="Schedule a Private Consultation"
       />
       <div className="bandSection">
         <div className="band1List">

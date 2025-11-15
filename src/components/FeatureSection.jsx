@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import "./FeatureSection.css";
-import arrow from "../assets/Home/upper-right-arrow.svg";
-import deshboardImg  from "../assets/Home/dashboard.png"
+import arrow from "/assets/Home/upper-right-arrow.svg";
+import deshboardImg  from "/assets/Home/dashboard.png"
 
 function FeatureSection({ features }) {
   return (

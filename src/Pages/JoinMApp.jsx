@@ -1,8 +1,8 @@
 import "./PagesCss.css";
 import { transact, JoinMAppData } from "../../src/Pages.json";
-import defalutImg from "../assets/defaultImg.svg";
-import bulding from "../assets/Pages/ph_building-office-bold.svg";
-import check from "../assets/Pages/check.svg";
+import defalutImg from "../../public/assets/defaultImg.svg"
+import bulding from "../../public/assets/Pages/ph_building-office-bold.svg";
+import check from "../../public/assets/Pages/check.svg";
 import Feature from "../Utils/Feature.jsx";
 import Form from "../Utils/Form.jsx";
 
@@ -107,6 +107,7 @@ function JoinMApp() {
         Heading="Let’s create value together."
         subtext="Whether you want to refer a client or join the program, we’re happy to connect."
         className="JoinMAppData"
+        submitBtnText="Submit"
       />
       <div className="bandSection">
         <div className="band1List">

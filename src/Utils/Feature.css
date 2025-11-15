@@ -1,13 +1,18 @@
 .featureSection{
-    display: flex;
- margin: 63px 0;
-    padding: 29px 0px;
-    justify-content: space-evenly;
+     display: flex;
+    /* margin: 63px 0; */
+    padding: 29px 62px;
+    justify-content: space-between;
+    max-width: 1274px;
+    margin: 60px auto;
+}
+.featureslist{
+    padding-top: 50px;
 }
 .featureHeading h2{
 font-family: 'AvenirHeavy';
     font-weight: 800;
-    font-size: 33px;
+    font-size: 32px;
     line-height: 41px;
     width: 309px;
     
@@ -85,11 +90,12 @@ font-family: 'AvenirHeavy';
     background: #000;
 }
 .approach{
-        font-family: 'AvenirHeavy';
+font-family: 'AvenirHeavy';
     font-weight: 800;
-    font-size: 23px;
+    font-size: 20px;
     line-height: 32px;
     margin: 20px 0;
+    max-width: 360px;
 }
 
 .featuresubtest{

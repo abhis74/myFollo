@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router";
 import { navLinks } from "../HeaderData.json";
-import LoginSvg from "../assets/log-in.svg";
-import Logo from "../assets/logo.svg";
+import LoginSvg from "../../public/assets/log-in.svg";
+import Logo from "../../public/assets/logo.svg";
 import style from "./Header.module.css";
 import { useState } from "react";
 function Header() {

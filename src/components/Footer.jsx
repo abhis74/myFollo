@@ -1,9 +1,9 @@
 import "./footer.css";
-import Logo from "../assets/logo.svg";
+import Logo from "../../public/assets/logo.svg";
 import { Link } from "react-router";
-import facebook from "../assets/facebook.svg";
-import linkedin from "../assets/linkedin.svg";
-import twitter from "../assets/twitter.svg";
+import facebook from "../../public/assets/facebook.svg";
+import linkedin from "../../public/assets/linkedin.svg";
+import twitter from "../../public/assets/twitter.svg";
 function Footer() {
   return (
     <>

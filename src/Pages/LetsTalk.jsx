@@ -2,8 +2,8 @@
 import "./PagesCss.css";
 import { LetsTalkData } from "../../src/Pages.json";
 import Form from "../Utils/Form.jsx";
-import phone from "../assets/Pages/mingcute_phone-fill.svg"
-import email from "../assets/Pages/tabler_mail-filled.svg"
+import phone from "../../public/assets/Pages/mingcute_phone-fill.svg"
+import email from "../../public/assets/Pages/tabler_mail-filled.svg"
 
 function LetsTalk() {
   return (
@@ -17,7 +17,7 @@ function LetsTalk() {
         </div>
       </div>
       <div className="LetsTalkpageHeroSection">
-        <Form />
+        <Form submitBtnText="Submit Your Inquiry"/>
       </div>
 
      <div className="transacttestimonialSection LetsTalk">

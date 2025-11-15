@@ -1,5 +1,5 @@
 import "./TestimonialSection.css";
-import comas from "../assets/Home/invertedcomms.svg";
+import comas from "/assets/Home/invertedcomms.svg";
 function TestimonialSection({ testimonials, brands }) {
   return (
     <>

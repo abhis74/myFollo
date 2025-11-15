@@ -3,13 +3,12 @@ import "./Home.css";
 import { Link } from "react-router";
 import Accordion from "../Utils/Accordion.jsx";
 import { useState } from "react";
-import FeatureSection from "./FeatureSection.jsx";
 import TestimonialSection from "./TestimonialSection.jsx";
-import mappImg  from "../assets/Home/Maskgroup.png";
+import mappImg  from "/assets/Home/Maskgroup.png";
 import Form from "../Utils/Form.jsx";
 import "./FeatureSection.css";
-import arrow from "../assets/Home/upper-right-arrow.svg";
-import deshboardImg  from "../assets/Home/dashboard.png"
+import arrow from "/assets/Home/upper-right-arrow.svg";
+import deshboardImg  from "/assets/Home/dashboard.png"
 
 
 const features= [
@@ -141,7 +140,7 @@ function Home() {
 
       <TestimonialSection testimonials={homePageData.testimonials} brands={homePageData.brands}/>
       <Form Heading="Advising ₹15,000 Cr+ in Real Estate Wealth.
-Trusted by People Who Build, Own, and Grow with Vision" subtext="Experience the clarity, discretion, and intelligence that define MyFollo’s approach to real estate, from ownership and investment to management and advisory."/>
+Trusted by People Who Build, Own, and Grow with Vision" subtext="Experience the clarity, discretion, and intelligence that define MyFollo’s approach to real estate, from ownership and investment to management and advisory." submitBtnText="Book a Consultation"/>
     </>
   );
 }

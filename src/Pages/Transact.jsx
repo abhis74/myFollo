@@ -1,6 +1,6 @@
 import "./PagesCss.css"
 import {transact} from "../../src/Pages.json"
-import defalutImg from "../assets/defaultImg.svg"
+import defalutImg from "../../public/assets/defaultImg.svg"
 import Feature from "../Utils/Feature.jsx"
 import Form from "../Utils/Form.jsx"
 import HightLightFeatures from "../Utils/HightLightFeatures.jsx"
@@ -51,7 +51,11 @@ function Transact(){
                  transact.heroSection.subpoints.map((point,index)=>(
                   <div className="subpoint">
                     <img src={point.icon} alt="" />
+                    <div className="subpointsdiv">
+
                     <h3>{point.heading}</h3>
+                    <p>{point.subText}</p>
+                    </div>
                    
                   </div>
                 ))
@@ -60,14 +64,18 @@ function Transact(){
           </div>
       </div>
 
-      <Feature feature={transact.feature} heading="Let us show‍ you how we make it happen." subtextone="Our Approach" subtextTwo="We don’t just transact — we strategize, position, and execute every step to protect and grow your wealth." btnText="Confidently Transact"/>
+      <Feature feature={transact.feature} heading="A Structured Approach to Every Transaction" subtextone="Our Approach" subtextTwo="At myfollo, every transaction follows a defined process, designed to deliver structure, precision, and results.
+ We evaluate, position, and execute with discipline, ensuring every mandate, whether sale, lease, or portfolio rebalancing, is managed intelligently and discreetly from start to finish.
+" btnText="Schedule a Consultation 
+"/>
 
    <HightLightFeatures hightLight={transact.hightLightFeatures} className="Transact"/>
 
     <div className="transacttestimonialSection">
 
-              <h2 className="transacttestimonialSection_heading">What Sets Us Apart</h2>
-              <p className="transacttestimonialSection_para">Transactions with MyFollo are built on trust, discretion, and proven outcomes.</p>
+              <h2 className="transacttestimonialSection_heading">What Sets myfollo Apart</h2>
+              <p className="transacttestimonialSection_para">Transactions with myfollo are built on trust, discretion, and disciplined execution.</p>
+              <p className="transacttestimonialSection_para">From the first conversation to final closure, every mandate is guided by data, verified networks, and institutional-grade governance, ensuring outcomes that protect both value and privacy.</p>
            <div className="transacttestimonialSection_box">
             
         {transact.trustedLeaders && transact.trustedLeaders.length > 0 ? (
@@ -94,7 +102,8 @@ function Transact(){
          </div>  
       </div>
 
- <Form Heading="Let’s Help You Transact With Confidence" subtext="Whether you’re selling, leasing, or restructuring — our advisory team will design a bespoke strategy for you."/>
+ <Form Heading="Let’s Define Your Next Real Estate Move." subtext="Whether you’re selling, leasing, or restructuring, our advisory team designs every transaction with clarity, discretion, and strategy.
+" submitBtnText="Schedule a Private Consultation"/>
            <div className="bandSection">
         <div className="band1List">
           {transact.brands &&

@@ -1,9 +1,9 @@
 import "./PagesCss.css";
 import { myFollo } from "../../src/Pages.json";
 import HightLightFeatures from "../Utils/HightLightFeatures.jsx";
-import Ellipse from "../assets/Pages/Ellipse.svg";
-import Polygon from "../assets/Pages/Polygon.svg";
-import Rectangle from "../assets/Pages/Rectangle.svg";
+import Ellipse from "../../public/assets/Pages/Ellipse.svg";
+import Polygon from "../../public/assets/Pages/Polygon.svg";
+import Rectangle from "../../public/assets/Pages/Rectangle.svg";
 
 function MyFollo() {
   return (

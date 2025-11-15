@@ -4,7 +4,7 @@
       "title": "Manage Your Real Estate Portfolio Online",
       "subtitle": "Curated, Advised, Delivered",
       "subText": "India’s exclusive platform for end-to-end real estate wealth management",
-      "image": "./src/assets/Home/Herobanner.png"
+      "image": "/assets/Home/Herobanner.png"
     },
     "hightlites": {
       "Achievements": [
@@ -50,21 +50,21 @@
     },
     "features": [
       {
-        "icon": "./src/assets/Home/growth.svg",
+        "icon": "/assets/Home/growth.svg",
         "title": "Invest",
         "description": "Curated real estate opportunities across India’s most promising markets, backed by diligence, data, and deep advisory insight. Build and diversify your real estate portfolio with confidence.",
         "cta": "Explore Investments",
         "ctaLink": "/invest"
       },
       {
-        "icon": "./src/assets/Home/bill.svg",
+        "icon": "/assets/Home/bill.svg",
         "title": "Transact",
         "description": "Unlock value through intelligent real estate transactions from acquisitions and divestments to portfolio restructuring. Every deal is backed by analysis, strategy, and precision execution.",
         "cta": "Explore Transactions",
         "ctaLink": "/transact"
       },
       {
-        "icon": "./src/assets/Home/briefcase.svg",
+        "icon": "/assets/Home/briefcase.svg",
         "title": "PREFO",
         "description": "A bespoke real estate wealth advisory for family offices and affluent investors. We manage, structure, and preserve multi-asset portfolios with institutional-grade governance and long-term vision.",
         "cta": "Explore PREFO",
@@ -74,42 +74,42 @@
     "testimonials": [
       {
         "name": "Raghav Mehta",
-        "image": "./src/assets/Home/SulajjaFirodia.png",
+        "image": "/assets/Home/SulajjaFirodia.png",
         "feedback": "“myfollo has brought an institutional level of discipline to our family’s real estate portfolio. Their perspective goes far beyond transactions, it’s about strategy, timing, and legacy. Every interaction reflects an understanding of what long-term wealth truly means.”",
         "position": "Joint Managing Director - Kinetic Motor Company Ltd."
       },
       {
         "name": "Neha Kapoor",
-        "image": "./src/assets/Home/PankajSachdeva.png",
+        "image": "/assets/Home/PankajSachdeva.png",
         "feedback": "“What differentiates myfollo is how seamlessly they combine insight and execution. From curating investments to providing complete visibility through their dashboard, the experience feels as refined as private banking, but for real estate.”",
         "position": "Managing Director - Unified Credit Solutions"
       },
       {
         "name": "Arjun Sethi",
-        "image": "./src/assets/Home/AtulGupta.png",
+        "image": "/assets/Home/AtulGupta.png",
         "feedback": "“Real estate decisions often lack data, structure, or clarity. With myfollo, we found a team that leads with intelligence and delivers with precision. Their advice is never reactive, it’s guided by a genuine understanding of wealth and responsibility.”",
         "position": "Business head - Finance, Jakson Group"
       }
     ],
     "brands": [
-      "./src/assets/Home/brands/brand1.svg",
-      "./src/assets/Home/brands/brand2.svg",
-      "./src/assets/Home/brands/brand3.svg",
-      "./src/assets/Home/brands/brand4.svg",
-      "./src/assets/Home/brands/brand5.svg",
-      "./src/assets/Home/brands/brand6.svg",
-      "./src/assets/Home/brands/brand7.svg",
-      "./src/assets/Home/brands/brand8.svg",
-      "./src/assets/Home/brands/brand9.svg",
-      "./src/assets/Home/brands/brand10.svg",
-      "./src/assets/Home/brands/brand11.svg",
-      "./src/assets/Home/brands/brand12.svg",
-      "./src/assets/Home/brands/brand13.svg",
-      "./src/assets/Home/brands/brand14.svg",
-      "./src/assets/Home/brands/brand15.svg",
-      "./src/assets/Home/brands/brand16.svg",
-      "./src/assets/Home/brands/brand17.svg",
-      "./src/assets/Home/brands/brand18.svg"
+      "/assets/Home/brands/brand1.svg",
+      "/assets/Home/brands/brand2.svg",
+      "/assets/Home/brands/brand3.svg",
+      "/assets/Home/brands/brand4.svg",
+      "/assets/Home/brands/brand5.svg",
+      "/assets/Home/brands/brand6.svg",
+      "/assets/Home/brands/brand7.svg",
+      "/assets/Home/brands/brand8.svg",
+      "/assets/Home/brands/brand9.svg",
+      "/assets/Home/brands/brand10.svg",
+      "/assets/Home/brands/brand11.svg",
+      "/assets/Home/brands/brand12.svg",
+      "/assets/Home/brands/brand13.svg",
+      "/assets/Home/brands/brand14.svg",
+      "/assets/Home/brands/brand15.svg",
+      "/assets/Home/brands/brand16.svg",
+      "/assets/Home/brands/brand17.svg",
+      "/assets/Home/brands/brand18.svg"
     ]
   }
 }

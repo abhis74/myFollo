@@ -107,6 +107,9 @@ input::placeholder {
   height: 48px;
   margin: 0 auto;
   cursor: pointer;
+  background: #D4B76E;
+      border: 1px solid #D4B76E;
+      color: #000;
 }
 .submitformButton {
   text-align: center;
